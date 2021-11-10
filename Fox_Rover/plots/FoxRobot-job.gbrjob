@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2021-11-09T13:55:48+01:00"
+    "CreationDate":  "2021-11-10T15:24:26+01:00"
   },
   "GeneralSpecs":
   {
@@ -32,7 +32,7 @@
       "PadToPad":  0.300,
       "PadToTrack":  0.300,
       "TrackToTrack":  0.300,
-      "MinLineWidth":  0.250
+      "MinLineWidth":  0.300
     }
   ],
   "FilesAttributes":
@@ -45,6 +45,16 @@
     {
       "Path":  "FoxRobot-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FoxRobot-F_Adhes.gbr",
+      "FileFunction":  "Glue,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FoxRobot-B_Adhes.gbr",
+      "FileFunction":  "Glue,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -80,6 +90,16 @@
     {
       "Path":  "FoxRobot-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FoxRobot-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "FoxRobot-B_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],
