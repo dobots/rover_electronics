@@ -1075,4 +1075,48 @@ Wire Wire Line
 	3700 3100 3950 3100
 Wire Wire Line
 	3700 3200 3950 3200
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 621F6ABB
+P 1150 1550
+F 0 "H1" H 1250 1596 50  0000 L CNN
+F 1 "MountingHole" H 1250 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1150 1550 50  0001 C CNN
+F 3 "~" H 1150 1550 50  0001 C CNN
+	1    1150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 621F8225
+P 1150 1750
+F 0 "H2" H 1250 1796 50  0000 L CNN
+F 1 "MountingHole" H 1250 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1150 1750 50  0001 C CNN
+F 3 "~" H 1150 1750 50  0001 C CNN
+	1    1150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 622083F5
+P 1150 1900
+F 0 "H3" H 1250 1946 50  0000 L CNN
+F 1 "MountingHole" H 1250 1855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1150 1900 50  0001 C CNN
+F 3 "~" H 1150 1900 50  0001 C CNN
+	1    1150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62218B14
+P 1150 2100
+F 0 "H4" H 1250 2146 50  0000 L CNN
+F 1 "MountingHole" H 1250 2055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1150 2100 50  0001 C CNN
+F 3 "~" H 1150 2100 50  0001 C CNN
+	1    1150 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
