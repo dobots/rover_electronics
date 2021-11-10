@@ -110,36 +110,14 @@ Wire Wire Line
 	2850 2500 2900 2500
 Wire Wire Line
 	2900 2500 2900 2600
-Wire Wire Line
-	3800 2600 3800 2550
-Wire Wire Line
-	3800 2550 3950 2550
 Connection ~ 2900 2500
 Wire Wire Line
 	2900 2500 2950 2500
 Wire Wire Line
 	2900 1700 4700 1700
-Wire Wire Line
-	4700 2550 4450 2550
 Connection ~ 2900 2000
 Wire Wire Line
 	2900 2000 2950 2000
-Wire Wire Line
-	4450 3050 4700 3050
-Wire Wire Line
-	4700 3050 4700 3150
-Wire Wire Line
-	4700 3350 4450 3350
-Wire Wire Line
-	4450 3250 4700 3250
-Connection ~ 4700 3250
-Wire Wire Line
-	4700 3250 4700 3350
-Wire Wire Line
-	4450 3150 4700 3150
-Connection ~ 4700 3150
-Wire Wire Line
-	4700 3150 4700 3200
 $Comp
 L power:GND #PWR01
 U 1 1 6183ED9D
@@ -155,8 +133,6 @@ Wire Wire Line
 	4700 3200 4950 3200
 Connection ~ 4700 3200
 Wire Wire Line
-	4700 3200 4700 3250
-Wire Wire Line
 	3250 2500 3250 2250
 Wire Wire Line
 	3250 2250 3550 2250
@@ -170,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1700 2900 2000
 Wire Wire Line
-	4700 1700 4700 2550
+	4700 1700 4700 2350
 $Comp
 L Transistor_FET:BS170 Q1
 U 1 1 618379C4
@@ -282,8 +258,6 @@ Connection ~ 2650 5100
 Wire Wire Line
 	2650 5100 2650 5150
 Wire Wire Line
-	2900 2600 3800 2600
-Wire Wire Line
 	4350 4400 3850 4400
 Wire Wire Line
 	4450 5100 3850 5100
@@ -291,7 +265,7 @@ Wire Wire Line
 	3850 5100 3850 4400
 Connection ~ 3850 4400
 Wire Wire Line
-	3850 4400 3700 4400
+	3850 4400 3700 4450
 Wire Wire Line
 	2450 5450 2450 6000
 Connection ~ 2450 5450
@@ -342,13 +316,9 @@ Wire Wire Line
 	850  1300 850  4100
 Connection ~ 850  4100
 Wire Wire Line
-	3700 2650 3700 4400
+	3700 2700 3700 4450
 Wire Wire Line
-	3700 2650 3950 2650
-Wire Wire Line
-	3950 2750 3750 2750
-Wire Wire Line
-	3750 2750 3750 3550
+	3750 2800 3750 3550
 Wire Wire Line
 	3750 3550 5250 3550
 $Comp
@@ -672,9 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3500 3800 3500
 Wire Wire Line
-	3800 3500 3800 2850
-Wire Wire Line
-	3800 2850 3950 2850
+	3800 3500 3800 2900
 Connection ~ 7500 4200
 Wire Wire Line
 	7650 4100 7650 3250
@@ -778,7 +746,6 @@ Wire Wire Line
 	4850 2050 4850 3050
 Wire Wire Line
 	4850 3050 4700 3050
-Connection ~ 4700 3050
 Wire Wire Line
 	4950 1300 850  1300
 $Comp
@@ -883,10 +850,10 @@ Connection ~ 2200 5450
 Wire Wire Line
 	2200 5450 2450 5450
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR02
 U 1 1 61BB12DC
 P 5550 2600
-F 0 "#PWR?" H 5550 2450 50  0001 C CNN
+F 0 "#PWR02" H 5550 2450 50  0001 C CNN
 F 1 "+5V" H 5565 2773 50  0000 C CNN
 F 2 "" H 5550 2600 50  0001 C CNN
 F 3 "" H 5550 2600 50  0001 C CNN
@@ -894,14 +861,193 @@ F 3 "" H 5550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR03
 U 1 1 61BB1EDB
 P 7350 2600
-F 0 "#PWR?" H 7350 2450 50  0001 C CNN
+F 0 "#PWR03" H 7350 2450 50  0001 C CNN
 F 1 "+5V" H 7365 2773 50  0000 C CNN
 F 2 "" H 7350 2600 50  0001 C CNN
 F 3 "" H 7350 2600 50  0001 C CNN
 	1    7350 2600
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3500 3950 4000 3950
+Wire Bus Line
+	4000 3950 4000 3600
+Wire Bus Line
+	4000 3600 4600 3600
+Connection ~ 3700 4450
+Wire Wire Line
+	4450 2450 4500 2450
+Wire Wire Line
+	4450 2650 4500 2650
+Wire Wire Line
+	4450 2750 4500 2750
+Wire Wire Line
+	4450 2850 4500 2850
+Wire Wire Line
+	4450 2950 4500 2950
+Wire Wire Line
+	4300 3050 4300 3150
+Wire Bus Line
+	3850 2350 3500 2350
+Wire Bus Line
+	3500 2350 3500 2700
+Wire Bus Line
+	3500 2700 2750 2700
+Wire Wire Line
+	3350 2950 3400 2950
+Wire Wire Line
+	3400 3050 3350 3050
+Wire Wire Line
+	3350 3150 3400 3150
+Wire Wire Line
+	3350 3250 3400 3250
+Wire Wire Line
+	3350 3350 3400 3350
+Wire Wire Line
+	3350 3450 3400 3450
+Wire Wire Line
+	3350 3550 3400 3550
+Wire Wire Line
+	3350 3650 3400 3650
+Wire Wire Line
+	3350 3750 3400 3750
+Wire Wire Line
+	3350 3850 3400 3850
+Entry Wire Line
+	3500 3050 3400 2950
+Entry Wire Line
+	3500 3150 3400 3050
+Entry Wire Line
+	3500 3250 3400 3150
+Entry Wire Line
+	3500 3350 3400 3250
+Entry Wire Line
+	3500 3450 3400 3350
+Entry Wire Line
+	3500 3550 3400 3450
+Entry Wire Line
+	3500 3650 3400 3550
+Entry Wire Line
+	3500 3750 3400 3650
+Entry Wire Line
+	3500 3850 3400 3750
+Entry Wire Line
+	3500 3950 3400 3850
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J7
+U 1 1 618C4DF2
+P 3050 3350
+F 0 "J7" H 3100 3967 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 3100 3876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 3050 3350 50  0001 C CNN
+F 3 "~" H 3050 3350 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2750 3050 2850 2950
+Entry Wire Line
+	2750 3150 2850 3050
+Entry Wire Line
+	2750 3250 2850 3150
+Entry Wire Line
+	2750 3350 2850 3250
+Entry Wire Line
+	2750 3450 2850 3350
+Entry Wire Line
+	2750 3550 2850 3450
+Entry Wire Line
+	2750 3650 2850 3550
+Wire Wire Line
+	4450 2550 4700 2350
+Entry Wire Line
+	2750 3750 2850 3650
+Entry Wire Line
+	2750 3850 2850 3750
+Entry Wire Line
+	2750 3950 2850 3850
+Connection ~ 4700 3050
+Wire Wire Line
+	4700 3050 4700 3150
+Connection ~ 4700 3150
+Wire Wire Line
+	4700 3150 4700 3200
+Wire Wire Line
+	4700 3200 4700 3250
+Connection ~ 4700 3250
+Wire Wire Line
+	4700 3250 4700 3350
+Entry Wire Line
+	4600 2550 4500 2450
+Wire Wire Line
+	3950 2600 3950 2550
+Entry Wire Line
+	4600 2750 4500 2650
+Entry Wire Line
+	4600 2850 4500 2750
+Entry Wire Line
+	4600 2950 4500 2850
+Entry Wire Line
+	4600 3050 4500 2950
+Entry Wire Line
+	4600 3150 4500 3050
+Entry Wire Line
+	4600 3250 4500 3150
+Entry Wire Line
+	4600 3350 4500 3250
+Entry Wire Line
+	4600 3450 4500 3350
+Wire Wire Line
+	2900 2600 3950 2600
+Wire Wire Line
+	3950 2650 3950 2700
+Wire Wire Line
+	3950 2700 3700 2700
+Wire Wire Line
+	3950 2750 3950 2800
+Wire Wire Line
+	3950 2800 3750 2800
+Wire Wire Line
+	3950 2850 3950 2900
+Wire Wire Line
+	3950 2900 3800 2900
+Entry Wire Line
+	3850 2350 3950 2450
+Entry Wire Line
+	3850 2450 3950 2550
+Entry Wire Line
+	3850 2550 3950 2650
+Entry Wire Line
+	3850 2650 3950 2750
+Entry Wire Line
+	3850 2750 3950 2850
+Entry Wire Line
+	3850 2850 3950 2950
+Entry Wire Line
+	3850 2950 3950 3050
+Entry Wire Line
+	3850 3050 3950 3150
+Entry Wire Line
+	3850 3150 3950 3250
+Entry Wire Line
+	3850 3250 3950 3350
+Wire Wire Line
+	4450 3050 4700 3050
+Wire Wire Line
+	4450 3150 4700 3150
+Wire Wire Line
+	4450 3250 4700 3250
+Wire Wire Line
+	4450 3350 4700 3350
+Wire Bus Line
+	3850 2350 3850 3250
+Wire Bus Line
+	4600 2450 4600 3600
+Wire Bus Line
+	2750 2700 2750 3950
+Wire Bus Line
+	3500 3050 3500 3950
 $EndSCHEMATC
