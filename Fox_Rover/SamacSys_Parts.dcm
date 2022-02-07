@@ -1,0 +1,56 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 40.52.7.012.0000
+D Finder DPDT Non-Latching Relay PCB Mount, 12V dc Coil, 8 A
+F http://uk.rs-online.com/web/p/products/0351572
+$ENDCMP
+#
+$CMP ADJH23005
+D PANASONIC ELECTRIC WORKS - ADJH23005 - POWER RELAY, SPST-NO, 50A, 277VAC, TH
+F https://industrial.panasonic.com/ac/cdn/e/control/relay/power/catalog/mech_eng_djh.pdf
+$ENDCMP
+#
+$CMP G2RK-1A-DC5
+D PCB POWER RELAY
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2r.pdf
+$ENDCMP
+#
+$CMP G2RK-1_12DC
+D Relay SPDT PCB dw-latched,5A 12Vdc coil SPDT PCB Mount Latching Relay, 12V dc For Use In Power Applications
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g2r.pdf
+$ENDCMP
+#
+$CMP LM1084IT-5.0
+D IC, LDO VOLT REG, 5V, 5A
+$ENDCMP
+#
+$CMP MPXH6400AC6T1
+F https://componentsearchengine.com/Datasheets/1/MPXH6400AC6T1.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PICO
+D RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom 2  SPI, 2  I2C, 2  UART, 3  12-bit ADC, 16  controllable PWM channels
+F https://datasheets.raspberrypi.org/pico/pico_datasheet.pdf
+$ENDCMP
+#
+$CMP STM32F407ZGT6
+D MCU 32-Bit, ARM Cortex M4, 1MB Flash STMicroelectronics STM32F407ZGT6, 32bit ARM Cortex M4F Microcontroller, 168MHz, 1024 kB Flash, 144-Pin LQFP
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+$CMP XT30PB
+D Mini XT60 XT30 Connector for RC Multirotor Racing Drone Quadcopter
+F https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
+$ENDCMP
+#
+$CMP XT60PW-M
+D Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow
+F https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+$ENDCMP
+#
+#End Doc Library
