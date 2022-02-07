@@ -18,7 +18,7 @@ L Connector_Generic:Conn_02x10_Odd_Even J5
 U 1 1 61824C6C
 P 5050 2400
 F 0 "J5" H 5100 3017 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 5100 2926 50  0000 C CNN
+F 1 "hExt_in" H 5100 2926 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 5050 2400 50  0001 C CNN
 F 3 "~" H 5050 2400 50  0001 C CNN
 	1    5050 2400
@@ -38,81 +38,81 @@ $EndComp
 $Comp
 L Device:R R4
 U 1 1 61835DF3
-P 4000 2200
-F 0 "R4" V 4207 2200 50  0000 C CNN
-F 1 "680k" V 4116 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3930 2200 50  0001 C CNN
-F 3 "~" H 4000 2200 50  0001 C CNN
-	1    4000 2200
+P 4000 2000
+F 0 "R4" V 4207 2000 50  0000 C CNN
+F 1 "680k" V 4116 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3930 2000 50  0001 C CNN
+F 3 "~" H 4000 2000 50  0001 C CNN
+	1    4000 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 618369A9
-P 3600 2200
-F 0 "R2" V 3807 2200 50  0000 C CNN
-F 1 "56k" V 3716 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 2200 50  0001 C CNN
-F 3 "~" H 3600 2200 50  0001 C CNN
-	1    3600 2200
+P 3400 2000
+F 0 "R2" V 3607 2000 50  0000 C CNN
+F 1 "56k" V 3516 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 2000 50  0001 C CNN
+F 3 "~" H 3400 2000 50  0001 C CNN
+	1    3400 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 61839074
-P 3600 1700
-F 0 "R1" V 3807 1700 50  0000 C CNN
-F 1 "56k" V 3716 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3530 1700 50  0001 C CNN
-F 3 "~" H 3600 1700 50  0001 C CNN
-	1    3600 1700
+P 3400 1700
+F 0 "R1" V 3607 1700 50  0000 C CNN
+F 1 "56k" V 3516 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 1700 50  0001 C CNN
+F 3 "~" H 3400 1700 50  0001 C CNN
+	1    3400 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L XT60-M:XT60-M J3
 U 1 1 6183AC54
-P 2500 4200
-F 0 "J3" H 2393 3833 50  0000 C CNN
-F 1 "XT60-M_Red" H 2393 3924 50  0000 C CNN
-F 2 "SamacSys_Parts:Solder_Pads" H 2500 4200 50  0001 L BNN
-F 3 "" H 2500 4200 50  0001 L BNN
-F 4 "1.2" H 2500 4200 50  0001 L BNN "PARTREV"
-F 5 "AMASS" H 2500 4200 50  0001 L BNN "MANUFACTURER"
-F 6 "IPC-7251" H 2500 4200 50  0001 L BNN "STANDARD"
-	1    2500 4200
+P 2300 4200
+F 0 "J3" H 2193 3833 50  0000 C CNN
+F 1 "XT60-M_Red" H 2193 3924 50  0000 C CNN
+F 2 "SamacSys_Parts:Solder_Pads" H 2300 4200 50  0001 L BNN
+F 3 "" H 2300 4200 50  0001 L BNN
+F 4 "1.2" H 2300 4200 50  0001 L BNN "PARTREV"
+F 5 "AMASS" H 2300 4200 50  0001 L BNN "MANUFACTURER"
+F 6 "IPC-7251" H 2300 4200 50  0001 L BNN "STANDARD"
+	1    2300 4200
 	-1   0    0    1   
 $EndComp
 $Comp
 L XT60-M:XT60-M J2
 U 1 1 6183B8DA
-P 2500 3550
-F 0 "J2" H 2393 3183 50  0000 C CNN
-F 1 "XT60-M_Green" H 2393 3274 50  0000 C CNN
-F 2 "SamacSys_Parts:Solder_Pads" H 2500 3550 50  0001 L BNN
-F 3 "" H 2500 3550 50  0001 L BNN
-F 4 "1.2" H 2500 3550 50  0001 L BNN "PARTREV"
-F 5 "AMASS" H 2500 3550 50  0001 L BNN "MANUFACTURER"
-F 6 "IPC-7251" H 2500 3550 50  0001 L BNN "STANDARD"
-	1    2500 3550
+P 2300 3550
+F 0 "J2" H 2193 3183 50  0000 C CNN
+F 1 "XT60-M_Green" H 2193 3274 50  0000 C CNN
+F 2 "SamacSys_Parts:Solder_Pads" H 2300 3550 50  0001 L BNN
+F 3 "" H 2300 3550 50  0001 L BNN
+F 4 "1.2" H 2300 3550 50  0001 L BNN "PARTREV"
+F 5 "AMASS" H 2300 3550 50  0001 L BNN "MANUFACTURER"
+F 6 "IPC-7251" H 2300 3550 50  0001 L BNN "STANDARD"
+	1    2300 3550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2800 3450 2800 3150
+	2600 3450 2600 3150
 Wire Wire Line
-	2800 4100 3200 4100
+	2600 4100 3000 4100
 Wire Wire Line
-	3200 4100 3200 2200
+	3000 4100 3000 2000
 Wire Wire Line
-	3200 2200 3350 2200
+	3000 2000 3150 2000
 Wire Wire Line
-	3750 1700 3800 1700
+	3550 1700 3800 1700
 Wire Wire Line
-	3750 2200 3800 2200
+	3550 2000 3800 2000
 Wire Wire Line
-	3800 2200 3800 2300
-Connection ~ 3800 2200
+	3800 2000 3800 2100
+Connection ~ 3800 2000
 Wire Wire Line
-	3800 2200 3850 2200
+	3800 2000 3850 2000
 Wire Wire Line
 	3800 1400 5950 1400
 Connection ~ 3800 1700
@@ -133,68 +133,10 @@ Wire Wire Line
 	6000 2800 6250 2800
 Connection ~ 6000 2800
 Wire Wire Line
-	4150 2200 4150 1700
-Wire Wire Line
-	4150 1700 4450 1700
-Wire Wire Line
-	4450 1700 4450 1750
+	4150 2000 4150 1700
 Connection ~ 4150 1700
 Wire Wire Line
 	3800 1400 3800 1700
-$Comp
-L Transistor_FET:BS170 Q1
-U 1 1 618379C4
-P 5150 3600
-F 0 "Q1" H 5354 3646 50  0000 L CNN
-F 1 "BS170" H 5354 3555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5350 3525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5150 3600 50  0001 L CNN
-	1    5150 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q2
-U 1 1 61839513
-P 5250 4250
-F 0 "Q2" H 5454 4296 50  0000 L CNN
-F 1 "BS170" H 5454 4205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 4175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5250 4250 50  0001 L CNN
-	1    5250 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5150 3400 5450 3400
-Wire Wire Line
-	4950 3700 4950 4350
-Wire Wire Line
-	4950 4350 5050 4350
-Connection ~ 4950 4350
-$Comp
-L Device:R R5
-U 1 1 61840156
-P 5700 3400
-F 0 "R5" H 5770 3446 50  0000 L CNN
-F 1 "10k" H 5770 3355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5630 3400 50  0001 C CNN
-F 3 "~" H 5700 3400 50  0001 C CNN
-	1    5700 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 618413C3
-P 5700 4050
-F 0 "R6" H 5770 4096 50  0000 L CNN
-F 1 "10k" H 5770 4005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5630 4050 50  0001 C CNN
-F 3 "~" H 5700 4050 50  0001 C CNN
-	1    5700 4050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5250 4050 5550 4050
-Connection ~ 5850 4050
 $Comp
 L SamacSys_Parts:G2RK-1_12DC K2
 U 1 1 618479C8
@@ -210,20 +152,6 @@ F 7 "G2RK-1 12DC" H 5400 4450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    4550 4850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5350 3700 5350 4000
-Wire Wire Line
-	5350 4000 4900 4000
-Wire Wire Line
-	4900 4000 4900 4750
-Wire Wire Line
-	4900 4750 4550 4750
-Wire Wire Line
-	5550 5000 5550 5500
-Wire Wire Line
-	5550 5500 4550 5500
-Wire Wire Line
-	4550 5500 4550 4850
 $Comp
 L Converter_DCDC:JCL3024S05 U1
 U 1 1 6184BC59
@@ -247,13 +175,6 @@ Connection ~ 3550 4800
 Wire Wire Line
 	3550 4800 3550 4850
 Wire Wire Line
-	5250 4100 4750 4100
-Wire Wire Line
-	5350 4800 4750 4800
-Wire Wire Line
-	4750 4800 4750 4100
-Connection ~ 4750 4100
-Wire Wire Line
 	3350 5150 3350 5700
 Connection ~ 3350 5150
 Wire Wire Line
@@ -263,33 +184,33 @@ Wire Wire Line
 Wire Wire Line
 	4550 4550 4550 4300
 Wire Wire Line
-	4550 4300 3200 4300
+	4550 4300 3000 4300
 Wire Wire Line
-	3200 4300 3200 4100
-Connection ~ 3200 4100
+	3000 4300 3000 4100
+Connection ~ 3000 4100
 Wire Wire Line
 	4550 4650 4600 4650
 Wire Wire Line
 	4600 4650 4600 4150
 Wire Wire Line
-	4600 4150 3400 4150
+	4600 4150 3200 4150
 Wire Wire Line
-	3400 4150 3400 3150
+	3200 4150 3200 3150
 Wire Wire Line
-	3400 3150 2800 3150
-Connection ~ 2800 3150
+	3200 3150 2600 3150
+Connection ~ 2600 3150
 Wire Wire Line
-	2800 3150 2800 1700
+	2600 3150 2600 1700
 Wire Wire Line
-	2800 3650 2800 3800
+	2600 3650 2600 3800
 Wire Wire Line
 	1900 5550 1600 5550
 Wire Wire Line
-	850  4500 2800 4500
+	850  4500 2600 4500
 Wire Wire Line
-	2800 4500 2800 4300
+	2600 4500 2600 4300
 Wire Wire Line
-	2800 3800 850  3800
+	2600 3800 850  3800
 Wire Wire Line
 	850  3800 850  4500
 Connection ~ 850  4500
@@ -298,326 +219,148 @@ Wire Wire Line
 Wire Wire Line
 	850  1000 850  3800
 Connection ~ 850  3800
-Wire Wire Line
-	4500 3100 6150 3100
-$Comp
-L Transistor_FET:BS170 Q4
-U 1 1 6188DDAF
-P 6950 3500
-F 0 "Q4" H 7154 3546 50  0000 L CNN
-F 1 "BS170" H 7154 3455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7150 3425 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 6950 3500 50  0001 L CNN
-	1    6950 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q5
-U 1 1 6188DDB5
-P 7200 4150
-F 0 "Q5" H 7404 4196 50  0000 L CNN
-F 1 "BS170" H 7404 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7400 4075 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 7200 4150 50  0001 L CNN
-	1    7200 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q6
-U 1 1 6188DDBB
-P 7500 4800
-F 0 "Q6" H 7704 4846 50  0000 L CNN
-F 1 "BS170" H 7704 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7700 4725 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 7500 4800 50  0001 L CNN
-	1    7500 4800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6950 3300 7400 3300
-Wire Wire Line
-	6750 3600 6750 4250
-Wire Wire Line
-	6750 4250 7000 4250
-Wire Wire Line
-	7300 4900 6750 4900
-Wire Wire Line
-	6750 4900 6750 4250
-Connection ~ 6750 4250
-$Comp
-L Device:R R8
-U 1 1 6188DDC8
-P 7550 3300
-F 0 "R8" H 7620 3346 50  0000 L CNN
-F 1 "10k" H 7620 3255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7480 3300 50  0001 C CNN
-F 3 "~" H 7550 3300 50  0001 C CNN
-	1    7550 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6188DDCE
-P 7700 3950
-F 0 "R9" H 7770 3996 50  0000 L CNN
-F 1 "10k" H 7770 3905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7630 3950 50  0001 C CNN
-F 3 "~" H 7700 3950 50  0001 C CNN
-	1    7700 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 6188DDD4
-P 7800 4600
-F 0 "R10" H 7870 4646 50  0000 L CNN
-F 1 "10k" H 7870 4555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7730 4600 50  0001 C CNN
-F 3 "~" H 7800 4600 50  0001 C CNN
-	1    7800 4600
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7400 3300
-Wire Wire Line
-	7200 3950 7550 3950
-Wire Wire Line
-	7500 4600 7650 4600
-Wire Wire Line
-	7700 3300 7850 3300
-Wire Wire Line
-	7850 3950 7950 3950
-Wire Wire Line
-	7950 3950 7950 4600
-Connection ~ 7850 3950
-Wire Wire Line
-	7150 3600 7150 3900
-Wire Wire Line
-	7150 3900 6350 3900
-Wire Wire Line
-	7700 4900 7700 5400
-Wire Wire Line
-	7200 4000 6150 4000
-Wire Wire Line
-	7500 4700 6150 4700
-Connection ~ 7950 4600
 $Comp
 L SamacSys_Parts:ADJH23005 K3
 U 1 1 618991F3
-P 6500 2200
-F 0 "K3" H 7200 2465 50  0000 C CNN
-F 1 "POWER_RELAY_RED" H 7200 2374 50  0000 C CNN
-F 2 "SamacSys_Parts:ADJH23005" H 7750 2300 50  0001 L CNN
-F 3 "https://industrial.panasonic.com/ac/cdn/e/control/relay/power/catalog/mech_eng_djh.pdf" H 7750 2200 50  0001 L CNN
-F 4 "PANASONIC ELECTRIC WORKS - ADJH23005 - POWER RELAY, SPST-NO, 50A, 277VAC, TH" H 7750 2100 50  0001 L CNN "Description"
-F 5 "30.5" H 7750 2000 50  0001 L CNN "Height"
-F 6 "Panasonic" H 7750 1900 50  0001 L CNN "Manufacturer_Name"
-F 7 "ADJH23005" H 7750 1800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "667-ADJH23005" H 7750 1700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ADJH23005?qs=QJyXDXpoSMLlP1yMMGNlcQ%3D%3D" H 7750 1600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ADJH23005" H 7750 1500 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/adjh23005/panasonic" H 7750 1400 50  0001 L CNN "Arrow Price/Stock"
-	1    6500 2200
+P 7150 1550
+F 0 "K3" H 7850 1815 50  0000 C CNN
+F 1 "POWER_RELAY_RED" H 7850 1724 50  0000 C CNN
+F 2 "SamacSys_Parts:ADJH23005" H 8400 1650 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/ac/cdn/e/control/relay/power/catalog/mech_eng_djh.pdf" H 8400 1550 50  0001 L CNN
+F 4 "PANASONIC ELECTRIC WORKS - ADJH23005 - POWER RELAY, SPST-NO, 50A, 277VAC, TH" H 8400 1450 50  0001 L CNN "Description"
+F 5 "30.5" H 8400 1350 50  0001 L CNN "Height"
+F 6 "Panasonic" H 8400 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADJH23005" H 8400 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "667-ADJH23005" H 8400 1050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ADJH23005?qs=QJyXDXpoSMLlP1yMMGNlcQ%3D%3D" H 8400 950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADJH23005" H 8400 850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adjh23005/panasonic" H 8400 750 50  0001 L CNN "Arrow Price/Stock"
+	1    7150 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:BS170 Q7
 U 1 1 618AA220
-P 9200 3400
-F 0 "Q7" H 9404 3446 50  0000 L CNN
-F 1 "BS170" H 9404 3355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9400 3325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9200 3400 50  0001 L CNN
-	1    9200 3400
+P 9800 3400
+F 0 "Q7" H 10004 3446 50  0000 L CNN
+F 1 "BS170" H 10004 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10000 3325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9800 3400 50  0001 L CNN
+	1    9800 3400
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_FET:BS170 Q8
 U 1 1 618AA226
-P 9450 4050
-F 0 "Q8" H 9654 4096 50  0000 L CNN
-F 1 "BS170" H 9654 4005 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9650 3975 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9450 4050 50  0001 L CNN
-	1    9450 4050
+P 10050 4050
+F 0 "Q8" H 10254 4096 50  0000 L CNN
+F 1 "BS170" H 10254 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10250 3975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10050 4050 50  0001 L CNN
+	1    10050 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_FET:BS170 Q9
 U 1 1 618AA22C
-P 9750 4700
-F 0 "Q9" H 9954 4746 50  0000 L CNN
-F 1 "BS170" H 9954 4655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9950 4625 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9750 4700 50  0001 L CNN
-	1    9750 4700
+P 10050 4700
+F 0 "Q9" H 10254 4746 50  0000 L CNN
+F 1 "BS170" H 10254 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10250 4625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10050 4700 50  0001 L CNN
+	1    10050 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9200 3200 9650 3200
+	9800 3200 10250 3200
 Wire Wire Line
-	9650 3200 9650 4150
+	10250 3200 10250 4150
 Wire Wire Line
-	9000 3500 9000 4150
+	9600 3500 9600 4150
 Wire Wire Line
-	9000 4150 9250 4150
-Connection ~ 9000 4150
+	9600 4150 9850 4150
+Connection ~ 9600 4150
 $Comp
 L Device:R R11
 U 1 1 618AA239
-P 9800 3200
-F 0 "R11" H 9870 3246 50  0000 L CNN
-F 1 "10k" H 9870 3155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9730 3200 50  0001 C CNN
-F 3 "~" H 9800 3200 50  0001 C CNN
-	1    9800 3200
+P 10400 3200
+F 0 "R11" H 10470 3246 50  0000 L CNN
+F 1 "10k" H 10470 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10330 3200 50  0001 C CNN
+F 3 "~" H 10400 3200 50  0001 C CNN
+	1    10400 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 618AA23F
-P 9950 3850
-F 0 "R12" H 10020 3896 50  0000 L CNN
-F 1 "10k" H 10020 3805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 3850 50  0001 C CNN
-F 3 "~" H 9950 3850 50  0001 C CNN
-	1    9950 3850
+P 10550 3850
+F 0 "R12" H 10620 3896 50  0000 L CNN
+F 1 "10k" H 10620 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10480 3850 50  0001 C CNN
+F 3 "~" H 10550 3850 50  0001 C CNN
+	1    10550 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 618AA245
-P 10050 4500
-F 0 "R13" H 10120 4546 50  0000 L CNN
-F 1 "10k" H 10120 4455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 4500 50  0001 C CNN
-F 3 "~" H 10050 4500 50  0001 C CNN
-	1    10050 4500
+P 10650 4500
+F 0 "R13" H 10720 4546 50  0000 L CNN
+F 1 "10k" H 10720 4455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10580 4500 50  0001 C CNN
+F 3 "~" H 10650 4500 50  0001 C CNN
+	1    10650 4500
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9650 3200
+Connection ~ 10250 3200
 Wire Wire Line
-	9450 3850 9800 3850
+	10050 3850 10400 3850
 Wire Wire Line
-	9750 4500 9900 4500
+	10050 4500 10450 4500
 Wire Wire Line
-	9950 3200 10100 3200
+	10550 3200 10700 3200
 Wire Wire Line
-	10100 3850 10200 3850
+	10700 3850 10800 3850
 Wire Wire Line
-	10200 3850 10200 4500
-Connection ~ 10100 3850
+	10800 3850 10800 4500
+Connection ~ 10700 3850
 Wire Wire Line
-	9400 3500 9400 3800
+	10000 3500 10000 3800
 Wire Wire Line
-	9400 3800 8550 3800
-Wire Wire Line
-	9450 3900 8400 3900
-Connection ~ 10200 4500
+	10000 3800 9400 3800
+Connection ~ 10800 4500
 $Comp
 L SamacSys_Parts:ADJH23005 K4
 U 1 1 618AA266
-P 8250 2200
-F 0 "K4" H 8950 2465 50  0000 C CNN
-F 1 "POWER_RELAY_GREEN" H 8950 2374 50  0000 C CNN
-F 2 "SamacSys_Parts:ADJH23005" H 9500 2300 50  0001 L CNN
-F 3 "https://industrial.panasonic.com/ac/cdn/e/control/relay/power/catalog/mech_eng_djh.pdf" H 9500 2200 50  0001 L CNN
-F 4 "PANASONIC ELECTRIC WORKS - ADJH23005 - POWER RELAY, SPST-NO, 50A, 277VAC, TH" H 9500 2100 50  0001 L CNN "Description"
-F 5 "30.5" H 9500 2000 50  0001 L CNN "Height"
-F 6 "Panasonic" H 9500 1900 50  0001 L CNN "Manufacturer_Name"
-F 7 "ADJH23005" H 9500 1800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "667-ADJH23005" H 9500 1700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ADJH23005?qs=QJyXDXpoSMLlP1yMMGNlcQ%3D%3D" H 9500 1600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ADJH23005" H 9500 1500 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/adjh23005/panasonic" H 9500 1400 50  0001 L CNN "Arrow Price/Stock"
-	1    8250 2200
+P 8950 1550
+F 0 "K4" H 9650 1815 50  0000 C CNN
+F 1 "POWER_RELAY_GREEN" H 9650 1724 50  0000 C CNN
+F 2 "SamacSys_Parts:ADJH23005" H 10200 1650 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/ac/cdn/e/control/relay/power/catalog/mech_eng_djh.pdf" H 10200 1550 50  0001 L CNN
+F 4 "PANASONIC ELECTRIC WORKS - ADJH23005 - POWER RELAY, SPST-NO, 50A, 277VAC, TH" H 10200 1450 50  0001 L CNN "Description"
+F 5 "30.5" H 10200 1350 50  0001 L CNN "Height"
+F 6 "Panasonic" H 10200 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADJH23005" H 10200 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "667-ADJH23005" H 10200 1050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/ADJH23005?qs=QJyXDXpoSMLlP1yMMGNlcQ%3D%3D" H 10200 950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADJH23005" H 10200 850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adjh23005/panasonic" H 10200 750 50  0001 L CNN "Arrow Price/Stock"
+	1    8950 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 1700 2950 1700
+	2600 1700 2750 1700
 Wire Wire Line
-	2950 1700 2950 1200
+	2750 1700 2750 1200
+Connection ~ 2750 1700
 Wire Wire Line
-	2950 1200 9650 1200
-Connection ~ 2950 1700
+	2750 1700 3250 1700
 Wire Wire Line
-	2950 1700 3450 1700
+	3150 1300 3150 2000
+Connection ~ 3150 2000
 Wire Wire Line
-	3350 1300 7900 1300
-Wire Wire Line
-	3350 1300 3350 2200
-Connection ~ 3350 2200
-Wire Wire Line
-	3350 2200 3450 2200
-Wire Wire Line
-	7400 3300 7400 4250
-Connection ~ 6150 4000
-Wire Wire Line
-	6150 3100 6150 4000
-Wire Wire Line
-	6150 4000 6150 4700
-Wire Wire Line
-	7700 5400 6450 5400
-Wire Wire Line
-	6450 5400 6450 2400
-Wire Wire Line
-	6450 2400 6500 2400
-Wire Wire Line
-	6350 2200 6500 2200
-Wire Wire Line
-	6350 2200 6350 3900
-Connection ~ 5850 5700
-Wire Wire Line
-	5850 4700 5850 5700
-Connection ~ 5850 4700
-Wire Wire Line
-	5850 4050 5850 4700
-Wire Wire Line
-	5350 4700 5550 4700
-$Comp
-L Device:R R7
-U 1 1 6184296B
-P 5700 4700
-F 0 "R7" H 5770 4746 50  0000 L CNN
-F 1 "10k" H 5770 4655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5630 4700 50  0001 C CNN
-F 3 "~" H 5700 4700 50  0001 C CNN
-	1    5700 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q3
-U 1 1 6183A0E5
-P 5350 4900
-F 0 "Q3" H 5554 4946 50  0000 L CNN
-F 1 "BS170" H 5554 4855 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5550 4825 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5350 4900 50  0001 L CNN
-	1    5350 4900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 4350 4950 5000
-Wire Wire Line
-	4950 5000 5150 5000
-Wire Wire Line
-	7950 5700 5850 5700
-Wire Wire Line
-	7950 4600 7950 5700
-Wire Wire Line
-	8400 3900 8400 3050
-Wire Wire Line
-	8400 3050 4550 3050
-Wire Wire Line
-	8550 3800 8550 2950
-Wire Wire Line
-	8550 2950 8000 2950
-Wire Wire Line
-	8000 2200 8250 2200
-Wire Wire Line
-	8750 2900 8250 2900
-Wire Wire Line
-	8250 2900 8250 2400
-Connection ~ 7950 5700
+	3150 2000 3250 2000
 $Comp
 L SamacSys_Parts:40.52.7.012.0000 K1
 U 1 1 61995728
@@ -711,26 +454,11 @@ F 3 "~" H 7900 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 2950 8000 2200
+	8550 1650 8600 1650
 Wire Wire Line
-	7900 1300 7900 2200
-Wire Wire Line
-	9650 1200 9650 2200
-Wire Wire Line
-	7900 2300 7950 2300
-Wire Wire Line
-	9650 2300 9750 2300
-Wire Wire Line
-	9750 2300 9750 950 
-Wire Wire Line
-	9750 950  7950 950 
-Wire Wire Line
-	7950 950  7950 2300
-Wire Wire Line
-	7950 950  7700 950 
+	10350 1650 10450 1650
 Wire Wire Line
 	7700 950  7700 750 
-Connection ~ 7950 950 
 Wire Wire Line
 	5850 1000 5850 650 
 Wire Wire Line
@@ -739,44 +467,10 @@ Wire Wire Line
 	800  5900 800  7250
 Connection ~ 2900 5900
 Wire Wire Line
-	3450 5700 5850 5700
-Wire Wire Line
 	3350 5700 3450 5700
 Connection ~ 3450 5700
 Wire Wire Line
-	2900 5900 4950 5900
-Wire Wire Line
-	4950 5000 4950 5900
-Connection ~ 4950 5000
-Connection ~ 4950 5900
-Wire Wire Line
-	4950 5900 6750 5900
-Wire Wire Line
-	6750 4900 6750 5900
-Connection ~ 6750 4900
-Connection ~ 6750 5900
-Wire Wire Line
-	6750 5900 9000 5900
-$Comp
-L power:GND #PWR0101
-U 1 1 61B738E1
-P 4750 3700
-F 0 "#PWR0101" H 4750 3450 50  0001 C CNN
-F 1 "GND" H 4755 3527 50  0000 C CNN
-F 2 "" H 4750 3700 50  0001 C CNN
-F 3 "" H 4750 3700 50  0001 C CNN
-	1    4750 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3700 4950 3700
-Connection ~ 4950 3700
-Wire Wire Line
-	5850 3400 5850 4050
-Wire Wire Line
-	7850 3300 7850 3950
-Wire Wire Line
-	10100 3200 10100 3850
+	10700 3200 10700 3850
 Text Label 3350 5450 0    50   ~ 0
 5V
 $Comp
@@ -796,31 +490,27 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR02
 U 1 1 61BB12DC
-P 6500 2300
-F 0 "#PWR02" H 6500 2150 50  0001 C CNN
-F 1 "+5V" H 6515 2473 50  0000 C CNN
-F 2 "" H 6500 2300 50  0001 C CNN
-F 3 "" H 6500 2300 50  0001 C CNN
-	1    6500 2300
+P 7150 1650
+F 0 "#PWR02" H 7150 1500 50  0001 C CNN
+F 1 "+5V" H 7165 1823 50  0000 C CNN
+F 2 "" H 7150 1650 50  0001 C CNN
+F 3 "" H 7150 1650 50  0001 C CNN
+	1    7150 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR03
 U 1 1 61BB1EDB
-P 8250 2300
-F 0 "#PWR03" H 8250 2150 50  0001 C CNN
-F 1 "+5V" H 8265 2473 50  0000 C CNN
-F 2 "" H 8250 2300 50  0001 C CNN
-F 3 "" H 8250 2300 50  0001 C CNN
-	1    8250 2300
+P 8950 1650
+F 0 "#PWR03" H 8950 1500 50  0001 C CNN
+F 1 "+5V" H 8965 1823 50  0000 C CNN
+F 2 "" H 8950 1650 50  0001 C CNN
+F 3 "" H 8950 1650 50  0001 C CNN
+	1    8950 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 2300 4500 3100
-Wire Wire Line
-	3800 2300 4250 2300
-Wire Wire Line
-	5950 1400 5950 2200
+	5950 1400 5950 2100
 Wire Wire Line
 	6000 2800 6000 2850
 Wire Wire Line
@@ -832,29 +522,17 @@ Wire Wire Line
 	6000 2650 6000 2750
 Connection ~ 6000 2750
 Connection ~ 6000 2650
-Wire Wire Line
-	4750 4100 4450 4100
-Wire Wire Line
-	4450 2200 4450 4100
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J7
 U 1 1 618C4DF2
-P 3900 3050
-F 0 "J7" H 3950 3667 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 3950 3576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 3900 3050 50  0001 C CNN
-F 3 "~" H 3900 3050 50  0001 C CNN
-	1    3900 3050
+P 1400 2600
+F 0 "J7" H 1450 3217 50  0000 C CNN
+F 1 "Pin_Header" H 1450 3126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 1400 2600 50  0001 C CNN
+F 3 "~" H 1400 2600 50  0001 C CNN
+	1    1400 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 1750 6150 1750
-Wire Wire Line
-	6150 1750 6150 2650
-Wire Wire Line
-	5650 2200 5950 2200
-Wire Wire Line
-	5650 2100 5650 2200
 Wire Wire Line
 	5350 2600 5350 2650
 Wire Wire Line
@@ -872,88 +550,84 @@ Wire Wire Line
 Wire Wire Line
 	5350 2750 6000 2750
 Wire Wire Line
-	4250 2300 4250 2100
+	1700 2200 1800 2200
 Wire Wire Line
-	4550 2400 4550 3050
+	1700 2300 1800 2300
 Wire Wire Line
-	4200 2650 4300 2650
+	1700 2400 1800 2400
 Wire Wire Line
-	4200 2750 4300 2750
+	1700 2500 1800 2500
 Wire Wire Line
-	4200 2850 4300 2850
+	1700 2600 1800 2600
 Wire Wire Line
-	4200 2950 4300 2950
+	1700 2700 1800 2700
 Wire Wire Line
-	4200 3050 4300 3050
+	1700 2800 1800 2800
 Wire Wire Line
-	4200 3150 4300 3150
+	1700 2900 1800 2900
 Wire Wire Line
-	4200 3250 4300 3250
+	1700 3000 1800 3000
 Wire Wire Line
-	4200 3350 4300 3350
+	1700 3100 1800 3100
 Wire Wire Line
-	4200 3450 4300 3450
+	1200 2200 1050 2200
 Wire Wire Line
-	4200 3550 4300 3550
+	1200 2300 1050 2300
 Wire Wire Line
-	3700 2650 3550 2650
+	1200 2400 1050 2400
 Wire Wire Line
-	3700 2750 3550 2750
+	1200 2500 1050 2500
 Wire Wire Line
-	3700 2850 3550 2850
+	1200 2600 1050 2600
 Wire Wire Line
-	3700 2950 3550 2950
+	1200 2700 1050 2700
 Wire Wire Line
-	3700 3050 3550 3050
+	1200 2800 1050 2800
 Wire Wire Line
-	3700 3150 3550 3150
+	1200 2900 1050 2900
 Wire Wire Line
-	3700 3250 3550 3250
+	1200 3000 1050 3000
 Wire Wire Line
-	3700 3350 3550 3350
-Wire Wire Line
-	3700 3450 3550 3450
-Wire Wire Line
-	3700 3550 3550 3550
-Text Label 3550 2650 0    50   ~ 0
+	1200 3100 1050 3100
+Text Label 1050 2200 0    50   ~ 0
 A1
-Text Label 3550 2750 0    50   ~ 0
+Text Label 1050 2300 0    50   ~ 0
 A3
-Text Label 3550 2850 0    50   ~ 0
+Text Label 1050 2400 0    50   ~ 0
 A5
-Text Label 3550 2950 0    50   ~ 0
+Text Label 1050 2500 0    50   ~ 0
 A7
-Text Label 3550 3050 0    50   ~ 0
+Text Label 1050 2600 0    50   ~ 0
 A9
-Text Label 3550 3150 0    50   ~ 0
+Text Label 1050 2700 0    50   ~ 0
 A11
-Text Label 3550 3250 0    50   ~ 0
+Text Label 1050 2800 0    50   ~ 0
 A13
-Text Label 3550 3350 0    50   ~ 0
+Text Label 1050 2900 0    50   ~ 0
 A15
-Text Label 3550 3450 0    50   ~ 0
+Text Label 1050 3000 0    50   ~ 0
 A17
-Text Label 3550 3550 0    50   ~ 0
+Text Label 1050 3100 0    50   ~ 0
 A19
-Text Label 4300 2650 0    50   ~ 0
+Text Label 1800 2200 0    50   ~ 0
 A2
-Text Label 4300 2750 0    50   ~ 0
+Text Label 1800 2300 0    50   ~ 0
 A4
-Text Label 4300 2850 0    50   ~ 0
+Text Label 1800 2400 0    50   ~ 0
 A6
-Text Label 4300 2950 0    50   ~ 0
+Text Label 1800 2500 0    50   ~ 0
 A8
-Text Label 4300 3050 0    50   ~ 0
+Text Label 1800 2600 0    50   ~ 0
 A10
-Text Label 4300 3150 0    50   ~ 0
+Text Label 1800 2700 0    50   ~ 0
 A12
-Text Label 4300 3250 0    50   ~ 0
+Text Label 1800 2800 0    50   ~ 0
 A14
-Text Label 4300 3350 0    50   ~ 0
+Text Label 1800 2900 0    50   ~ 0
 A16
-Text Label 4300 3450 0    50   ~ 0
+Text Label 1800 3000 0    50   ~ 0
 A18
-Text Label 4300 3550 0    50   ~ 0
+Text Label 1800 3100 0    50   ~ 0
 A20
 Wire Wire Line
 	5350 2600 5450 2600
@@ -993,8 +667,6 @@ Wire Wire Line
 	5350 2400 5500 2400
 Wire Wire Line
 	5350 2500 5500 2500
-Wire Wire Line
-	5350 2100 5650 2100
 Text Label 4600 2000 0    50   ~ 0
 A1
 Text Label 4600 2100 0    50   ~ 0
@@ -1018,11 +690,7 @@ A19
 Wire Wire Line
 	4550 2400 4850 2400
 Wire Wire Line
-	4250 2100 4850 2100
-Wire Wire Line
 	4450 2200 4850 2200
-Wire Wire Line
-	4500 2300 4850 2300
 Wire Wire Line
 	4600 2000 4850 2000
 Wire Wire Line
@@ -1038,45 +706,45 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 621F6ABB
-P 2050 1250
-F 0 "H1" H 2150 1296 50  0000 L CNN
-F 1 "MountingHole" H 2150 1205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 2050 1250 50  0001 C CNN
-F 3 "~" H 2050 1250 50  0001 C CNN
-	1    2050 1250
+P 1050 1250
+F 0 "H1" H 1150 1296 50  0000 L CNN
+F 1 "MountingHole" H 1150 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1050 1250 50  0001 C CNN
+F 3 "~" H 1050 1250 50  0001 C CNN
+	1    1050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 621F8225
-P 2050 1450
-F 0 "H2" H 2150 1496 50  0000 L CNN
-F 1 "MountingHole" H 2150 1405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 2050 1450 50  0001 C CNN
-F 3 "~" H 2050 1450 50  0001 C CNN
-	1    2050 1450
+P 1050 1450
+F 0 "H2" H 1150 1496 50  0000 L CNN
+F 1 "MountingHole" H 1150 1405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1050 1450 50  0001 C CNN
+F 3 "~" H 1050 1450 50  0001 C CNN
+	1    1050 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 622083F5
-P 2050 1600
-F 0 "H3" H 2150 1646 50  0000 L CNN
-F 1 "MountingHole" H 2150 1555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 2050 1600 50  0001 C CNN
-F 3 "~" H 2050 1600 50  0001 C CNN
-	1    2050 1600
+P 1050 1600
+F 0 "H3" H 1150 1646 50  0000 L CNN
+F 1 "MountingHole" H 1150 1555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1050 1600 50  0001 C CNN
+F 3 "~" H 1050 1600 50  0001 C CNN
+	1    1050 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 62218B14
-P 2050 1800
-F 0 "H4" H 2150 1846 50  0000 L CNN
-F 1 "MountingHole" H 2150 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 2050 1800 50  0001 C CNN
-F 3 "~" H 2050 1800 50  0001 C CNN
-	1    2050 1800
+P 1050 1800
+F 0 "H4" H 1150 1846 50  0000 L CNN
+F 1 "MountingHole" H 1150 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom" H 1050 1800 50  0001 C CNN
+F 3 "~" H 1050 1800 50  0001 C CNN
+	1    1050 1800
 	1    0    0    -1  
 $EndComp
 Connection ~ 5350 2600
@@ -1144,7 +812,7 @@ Connection ~ 1150 5100
 Wire Wire Line
 	1150 4650 3550 4650
 Wire Wire Line
-	1900 5150 1600 5150
+	1900 5150 1700 5150
 Connection ~ 1600 5150
 Wire Wire Line
 	850  5550 850  5900
@@ -1154,57 +822,470 @@ Connection ~ 850  5550
 Connection ~ 850  5900
 Wire Wire Line
 	850  5900 2900 5900
-Wire Wire Line
-	5450 4350 5450 3400
-Connection ~ 5450 3400
-Wire Wire Line
-	5450 3400 5550 3400
 Text Notes 4600 6900 0    50   ~ 0
     /**** RELAY PINS ****/\n    LOGIC_RELAY_BAT_GREEN = PC_2,   // EXT_PIN9\n    LOGIC_RELAY_BAT_RED = PC_3,     // EXT_PIN10\n    POWER_RELAY_GREEN_ON = PC_0,    // EXT_PIN5\n    POWER_RELAY_GREEN_OFF = PD_6,   // EXT_PIN6\n    POWER_RELAY_RED_ON = PD_5,      // EXT_PIN7\n    POWER_RELAY_RED_OFF = PB_13,    // EXT_PIN8
 Wire Wire Line
-	9550 4800 9000 4800
-Connection ~ 9000 4800
+	9850 4800 9600 4800
+Connection ~ 9600 4800
 Wire Wire Line
-	9000 4800 9000 5900
+	9600 4800 9600 5900
 Wire Wire Line
-	9000 4150 9000 4800
+	9600 4150 9600 4800
 $Comp
-L Transistor_FET:BS170 Q?
+L Transistor_FET:BS170 Q12
 U 1 1 61BB42ED
-P 9900 5400
-F 0 "Q?" H 10104 5446 50  0000 L CNN
-F 1 "BS170" H 10104 5355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10100 5325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 9900 5400 50  0001 L CNN
-	1    9900 5400
+P 10200 5400
+F 0 "Q12" H 10404 5446 50  0000 L CNN
+F 1 "BS170" H 10404 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10200 5400 50  0001 L CNN
+	1    10200 5400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 61BB4EA0
-P 10150 5200
-F 0 "R?" H 10220 5246 50  0000 L CNN
-F 1 "10k" H 10220 5155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10080 5200 50  0001 C CNN
-F 3 "~" H 10150 5200 50  0001 C CNN
-	1    10150 5200
+P 10750 5200
+F 0 "R16" H 10820 5246 50  0000 L CNN
+F 1 "10k" H 10820 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10680 5200 50  0001 C CNN
+F 3 "~" H 10750 5200 50  0001 C CNN
+	1    10750 5200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9900 5200 10000 5200
+	10200 5200 10600 5200
 Wire Wire Line
-	8750 5600 10100 5600
+	10800 4500 10900 4500
 Wire Wire Line
-	10100 5600 10100 5500
+	10900 4500 10900 5200
 Wire Wire Line
-	8750 2900 8750 5600
+	10900 5200 10900 5700
+Connection ~ 10900 5200
 Wire Wire Line
-	10200 4500 10300 4500
+	5350 2100 5950 2100
 Wire Wire Line
-	10300 4500 10300 5200
+	3800 2100 4850 2100
 Wire Wire Line
-	10300 5200 10300 5700
-Connection ~ 10300 5200
+	6150 1700 6150 2650
 Wire Wire Line
-	7950 5700 10300 5700
+	4150 1700 6150 1700
+Wire Wire Line
+	10250 5050 9500 5050
+Wire Wire Line
+	10250 4800 10250 5050
+Wire Wire Line
+	10400 5500 10450 5500
+Wire Wire Line
+	10450 5500 10450 4500
+Connection ~ 10450 4500
+Wire Wire Line
+	10450 4500 10500 4500
+Wire Wire Line
+	10000 5500 10000 5900
+Wire Wire Line
+	10000 5900 9600 5900
+Connection ~ 9600 5900
+Wire Wire Line
+	8950 1750 8950 1900
+Wire Wire Line
+	8850 1550 8950 1550
+Wire Wire Line
+	2750 1200 10350 1200
+Wire Wire Line
+	10350 1200 10350 1550
+Wire Wire Line
+	10450 950  10450 1650
+Wire Wire Line
+	8600 1650 8600 950 
+Connection ~ 8600 950 
+Wire Wire Line
+	8600 950  10450 950 
+Wire Wire Line
+	7700 950  8600 950 
+Wire Wire Line
+	8550 1550 8550 1300
+Wire Wire Line
+	3150 1300 8550 1300
+Wire Wire Line
+	7000 1750 7150 1750
+Wire Wire Line
+	6900 1550 7150 1550
+Wire Wire Line
+	8950 1900 9500 1900
+Wire Wire Line
+	9500 1900 9500 5050
+Wire Wire Line
+	8850 2000 9400 2000
+Wire Wire Line
+	9400 2000 9400 3800
+Wire Wire Line
+	8850 2000 8850 1550
+Text Label 9250 5200 0    50   ~ 0
+A6
+Connection ~ 10200 5200
+Wire Wire Line
+	9250 5200 10200 5200
+Text Label 9250 3850 0    50   ~ 0
+A5
+Wire Wire Line
+	10050 3850 9250 3850
+Connection ~ 10050 3850
+$Comp
+L Transistor_FET:BS170 Q5
+U 1 1 61FB5E28
+P 7600 3400
+F 0 "Q5" H 7804 3446 50  0000 L CNN
+F 1 "BS170" H 7804 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7800 3325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 7600 3400 50  0001 L CNN
+	1    7600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q6
+U 1 1 61FB5E2E
+P 7850 4050
+F 0 "Q6" H 8054 4096 50  0000 L CNN
+F 1 "BS170" H 8054 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 3975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 7850 4050 50  0001 L CNN
+	1    7850 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q10
+U 1 1 61FB5E34
+P 7850 4700
+F 0 "Q10" H 8054 4746 50  0000 L CNN
+F 1 "BS170" H 8054 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 4625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 7850 4700 50  0001 L CNN
+	1    7850 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 3200 8050 3200
+Wire Wire Line
+	8050 3200 8050 4150
+Wire Wire Line
+	7400 3500 7400 4150
+Wire Wire Line
+	7400 4150 7650 4150
+Connection ~ 7400 4150
+$Comp
+L Device:R R9
+U 1 1 61FB5E3F
+P 8200 3200
+F 0 "R9" H 8270 3246 50  0000 L CNN
+F 1 "10k" H 8270 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8130 3200 50  0001 C CNN
+F 3 "~" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61FB5E45
+P 8350 3850
+F 0 "R10" H 8420 3896 50  0000 L CNN
+F 1 "10k" H 8420 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 3850 50  0001 C CNN
+F 3 "~" H 8350 3850 50  0001 C CNN
+	1    8350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 61FB5E4B
+P 8450 4500
+F 0 "R14" H 8520 4546 50  0000 L CNN
+F 1 "10k" H 8520 4455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8380 4500 50  0001 C CNN
+F 3 "~" H 8450 4500 50  0001 C CNN
+	1    8450 4500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 3200
+Wire Wire Line
+	7850 3850 8200 3850
+Wire Wire Line
+	7850 4500 8250 4500
+Wire Wire Line
+	8350 3200 8500 3200
+Wire Wire Line
+	8500 3850 8600 3850
+Wire Wire Line
+	8600 3850 8600 4500
+Connection ~ 8500 3850
+Wire Wire Line
+	7800 3500 7800 3800
+Connection ~ 8600 4500
+Wire Wire Line
+	8500 3200 8500 3850
+Wire Wire Line
+	7650 4800 7400 4800
+Wire Wire Line
+	7400 4150 7400 4800
+$Comp
+L Transistor_FET:BS170 Q11
+U 1 1 61FB5E60
+P 8000 5400
+F 0 "Q11" H 8204 5446 50  0000 L CNN
+F 1 "BS170" H 8204 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8200 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8000 5400 50  0001 L CNN
+	1    8000 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 61FB5E66
+P 8550 5200
+F 0 "R15" H 8620 5246 50  0000 L CNN
+F 1 "10k" H 8620 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 5200 50  0001 C CNN
+F 3 "~" H 8550 5200 50  0001 C CNN
+	1    8550 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 5200 8400 5200
+Wire Wire Line
+	8600 4500 8700 4500
+Wire Wire Line
+	8700 4500 8700 5200
+Wire Wire Line
+	8700 5200 8700 5700
+Connection ~ 8700 5200
+Wire Wire Line
+	8050 4800 8050 5050
+Wire Wire Line
+	8200 5500 8250 5500
+Wire Wire Line
+	8250 5500 8250 4500
+Connection ~ 8250 4500
+Wire Wire Line
+	8250 4500 8300 4500
+Connection ~ 8000 5200
+Connection ~ 7850 3850
+Wire Wire Line
+	6900 1550 6900 3800
+Wire Wire Line
+	6900 3800 7800 3800
+Wire Wire Line
+	7000 1750 7000 5050
+Wire Wire Line
+	7000 5050 8050 5050
+Wire Wire Line
+	6750 3850 7850 3850
+Wire Wire Line
+	6750 5200 8000 5200
+Text Label 6750 3850 0    50   ~ 0
+A7
+Text Label 6750 5200 0    50   ~ 0
+A8
+Wire Wire Line
+	4500 2300 4850 2300
+$Comp
+L Transistor_FET:BS170 Q1
+U 1 1 62062D1B
+P 5350 3400
+F 0 "Q1" H 5554 3446 50  0000 L CNN
+F 1 "BS170" H 5554 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5550 3325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5350 3400 50  0001 L CNN
+	1    5350 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q2
+U 1 1 62062D21
+P 5600 4050
+F 0 "Q2" H 5804 4096 50  0000 L CNN
+F 1 "BS170" H 5804 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5800 3975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5600 4050 50  0001 L CNN
+	1    5600 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:BS170 Q3
+U 1 1 62062D27
+P 5600 4700
+F 0 "Q3" H 5804 4746 50  0000 L CNN
+F 1 "BS170" H 5804 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5800 4625 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5600 4700 50  0001 L CNN
+	1    5600 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 4150
+Wire Wire Line
+	5150 3500 5150 4150
+Wire Wire Line
+	5150 4150 5400 4150
+Connection ~ 5150 4150
+$Comp
+L Device:R R5
+U 1 1 62062D32
+P 5950 3200
+F 0 "R5" H 6020 3246 50  0000 L CNN
+F 1 "10k" H 6020 3155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5880 3200 50  0001 C CNN
+F 3 "~" H 5950 3200 50  0001 C CNN
+	1    5950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 62062D38
+P 6100 3850
+F 0 "R6" H 6170 3896 50  0000 L CNN
+F 1 "10k" H 6170 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 3850 50  0001 C CNN
+F 3 "~" H 6100 3850 50  0001 C CNN
+	1    6100 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 62062D3E
+P 6200 4500
+F 0 "R7" H 6270 4546 50  0000 L CNN
+F 1 "10k" H 6270 4455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 4500 50  0001 C CNN
+F 3 "~" H 6200 4500 50  0001 C CNN
+	1    6200 4500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5800 3200
+Wire Wire Line
+	5600 3850 5950 3850
+Wire Wire Line
+	5600 4500 6000 4500
+Wire Wire Line
+	6100 3200 6250 3200
+Wire Wire Line
+	6250 3850 6350 3850
+Wire Wire Line
+	6350 3850 6350 4500
+Connection ~ 6250 3850
+Wire Wire Line
+	5550 3500 5550 3800
+Connection ~ 6350 4500
+Wire Wire Line
+	6250 3200 6250 3850
+Wire Wire Line
+	5400 4800 5150 4800
+Connection ~ 5150 4800
+Wire Wire Line
+	5150 4800 5150 5900
+Wire Wire Line
+	5150 4150 5150 4800
+$Comp
+L Transistor_FET:BS170 Q4
+U 1 1 62062D52
+P 5750 5400
+F 0 "Q4" H 5954 5446 50  0000 L CNN
+F 1 "BS170" H 5954 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 5750 5400 50  0001 L CNN
+	1    5750 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 62062D58
+P 6300 5200
+F 0 "R8" H 6370 5246 50  0000 L CNN
+F 1 "10k" H 6370 5155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6230 5200 50  0001 C CNN
+F 3 "~" H 6300 5200 50  0001 C CNN
+	1    6300 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 5200 6150 5200
+Wire Wire Line
+	6350 4500 6450 4500
+Wire Wire Line
+	6450 4500 6450 5200
+Wire Wire Line
+	6450 5200 6450 5700
+Connection ~ 6450 5200
+Wire Wire Line
+	5800 4800 5800 5050
+Wire Wire Line
+	5950 5500 6000 5500
+Wire Wire Line
+	6000 5500 6000 4500
+Connection ~ 6000 4500
+Wire Wire Line
+	6000 4500 6050 4500
+Wire Wire Line
+	5550 5500 5550 5900
+Connection ~ 5750 5200
+Connection ~ 5600 3850
+Wire Wire Line
+	4650 3800 5550 3800
+Wire Wire Line
+	4750 5050 5800 5050
+Wire Wire Line
+	4500 3850 5600 3850
+Wire Wire Line
+	4500 5200 5750 5200
+Wire Wire Line
+	3450 5700 6450 5700
+Wire Wire Line
+	4650 3800 4650 4750
+Wire Wire Line
+	4650 4750 4550 4750
+Wire Wire Line
+	4750 5050 4750 4850
+Wire Wire Line
+	4750 4850 4550 4850
+Text Label 4500 3850 0    50   ~ 0
+A9
+Text Label 4500 5200 0    50   ~ 0
+A10
+Wire Wire Line
+	7800 5500 7800 5900
+Wire Wire Line
+	2900 5900 5150 5900
+Connection ~ 7800 5900
+Wire Wire Line
+	7800 5900 9600 5900
+Wire Wire Line
+	7400 4800 7400 5900
+Connection ~ 7400 4800
+Connection ~ 7400 5900
+Wire Wire Line
+	7400 5900 7800 5900
+Connection ~ 6450 5700
+Wire Wire Line
+	6450 5700 10900 5700
+Connection ~ 5550 5900
+Wire Wire Line
+	5550 5900 7400 5900
+Connection ~ 5150 5900
+Wire Wire Line
+	5150 5900 5550 5900
+$Comp
+L power:+24V #PWR0101
+U 1 1 6212752E
+P 1700 5150
+F 0 "#PWR0101" H 1700 5000 50  0001 C CNN
+F 1 "+24V" H 1715 5323 50  0000 C CNN
+F 2 "" H 1700 5150 50  0001 C CNN
+F 3 "" H 1700 5150 50  0001 C CNN
+	1    1700 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 5150
+Wire Wire Line
+	1700 5150 1600 5150
 $EndSCHEMATC

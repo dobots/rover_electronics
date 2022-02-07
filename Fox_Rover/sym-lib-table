@@ -2,5 +2,6 @@
   (lib (name Connector_Generic)(type Legacy)(uri ${KIPRJMOD}/Connector_Generic.lib)(options "")(descr ""))
   (lib (name Converter_DCDC)(type Legacy)(uri ${KIPRJMOD}/Converter_DCDC.lib)(options "")(descr ""))
   (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/Transistor_FET.lib)(options "")(descr ""))
-  (lib (name XT60-M)(type Legacy)(uri C:/Users/luigi/Downloads/XT60-M/XT60-M.lib)(options "")(descr ""))
+  (lib (name XT60-M)(type Legacy)(uri ${KIPRJMOD}/XT60-M/XT60-M.lib)(options "")(descr ""))
+  (lib (name SamaSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
 )
